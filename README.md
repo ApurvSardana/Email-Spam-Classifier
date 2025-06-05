@@ -15,20 +15,19 @@ A machine learning project to classify emails as **Spam** or **Ham (Not Spam)** 
 * [Workflow](#workflow)
 * [Model and Tuning](#model-and-tuning)
 * [Evaluation Metrics](#evaluation-metrics)
-* [Results](#results)
 * [Visualizations](#visualizations)
 * [How to Run](#how-to-run)
 * [License](#license)
 
 ---
 
-## 📄 Project Overview
+##Project Overview
 
 This project implements a supervised classification system to identify spam emails using a logistic regression model. Key ML techniques like **feature scaling**, **train-test splitting**, and **hyperparameter tuning** have been applied.
 
 ---
 
-## 📈 Dataset
+##Dataset
 
 * Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/spambase)
 * Contains **57 numerical features** per email.
@@ -36,7 +35,7 @@ This project implements a supervised classification system to identify spam emai
 
 ---
 
-## ⚙️ Workflow
+##Workflow
 
 1. **Exploratory Data Analysis** – Analysed the dataset.
 2. **Train-Test Splitting** – Stratified splitted the dataset into training and testing parts to maintain spam/ham ratio.
@@ -46,7 +45,7 @@ This project implements a supervised classification system to identify spam emai
 
 ---
 
-## 🚀 Model and Tuning
+##Model and Tuning
 
 * **Model Used**: Logistic Regression
 * **Penalty**: L2 
@@ -67,7 +66,7 @@ param_grid = {
 
 ---
 
-## 🔢 Evaluation Metrics
+##Evaluation Metrics
 
 ```text
 Classification Report on test set:
@@ -84,7 +83,7 @@ weighted avg       0.91      0.91      0.91       920
 
 ---
 
-## 🌈 Visualizations
+##Visualizations
 
 ![Confusion Matrix](images/Confusion%20Matrix.png)
 
@@ -93,7 +92,7 @@ weighted avg       0.91      0.91      0.91       920
 
 ---
 
-## 💻 How to Run
+##How to Run
 
 ```bash
 # Clone this repo
@@ -104,7 +103,7 @@ $ cd Email-Spam-Classifier
 
 ---
 
-## 📚 License
+##License
 
 This project is licensed under the MIT License. Feel free to use, modify, and share.
 
