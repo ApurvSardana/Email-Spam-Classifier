@@ -12,7 +12,7 @@ A machine learning project to classify emails as **Spam** or **Ham (Not Spam)** 
 
 * 🌎 [Project Overview](#-project-overview)
 * 📋 [Dataset](#-dataset)
-* 🛠️ [Workflow](#-workflow)
+* 🛠️ [Workflow](#%EF%B8%8F-workflow)
 * 🧠 [Model and Tuning](#-model-and-tuning)
 * 🎯 [Evaluation Metrics](#-evaluation-metrics)
 * 📈 [Visualizations](#-visualizations)
